@@ -1,0 +1,113 @@
+/******** GLOBAL STYLES ********/
+body {
+
+}
+
+h1,
+h2,
+h3,
+h4 {
+
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+p {
+
+}
+
+.content-wrapper {
+
+}
+
+/******** HEADER STYLES ********/
+header h1 {
+    outline: 3px dotted red; 
+
+}
+
+header h1 span {
+
+}
+
+header nav {
+    outline: 3px dotted red;
+
+}
+
+header nav ul {
+
+}
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+
+}
+
+/********  MAIN STYLES ********/
+/******** TOP SECTION ********/
+.main-image img {
+
+}
+
+.main-title h2 {
+
+}
+
+/******** BOTTOM SECTION ********/
+.bottom-section .content-wrapper {
+
+}
+
+.section-one,
+.section-two,
+.section-three {
+    outline: 3px dotted red; 
+
+}
+
+.bottom-section h3 {
+
+}
+
+.menu {
+
+}
+
+.menu li {
+
+}
+
+.section-two {
+
+}
+
+.section-three {
+
+}
+
+/******** FOOTER STYLES ********/
+footer {
+
+}
+
+footer span {
+
+}
