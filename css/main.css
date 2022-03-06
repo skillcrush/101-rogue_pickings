@@ -41,7 +41,6 @@ p {
 
 /******** HEADER STYLES ********/
 header h1 {
-    outline: 3px dotted red; 
     width: 300px;
     float: left;
     margin: 0;
@@ -53,7 +52,6 @@ header h1 span {
 }
 
 header nav {
-    outline: 3px dotted red;
     width: 300px;
     float: right;
     padding: 44px 0;
@@ -82,45 +80,51 @@ header nav ul li a {
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
 .main-image img {
-
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
 }
 
 .main-title h2 {
-
+    color: #45610E;
+    padding: 5px 0;
 }
 
 /******** BOTTOM SECTION ********/
 .bottom-section .content-wrapper {
-
+    border-top: 5px solid #EEE;
+    border-bottom: 5px solid #EEE;
 }
 
 .section-one,
 .section-two,
 .section-three {
-    outline: 3px dotted red; 
     width: 400px;
     box-sizing: border-box;
     float: left;
+    padding: 0 60px;
 }
 
 .bottom-section h3 {
-
+    padding: 10px 0;
 }
 
 .menu {
-
+    padding-left: 0;
+    list-style: none;
 }
 
 .menu li {
-
+    color: #45610E;
+    line-height: 36px;
 }
 
 .section-two {
-
+    border-left: 5px solid #EEE;
+    border-right: 5px solid #EEE;
 }
 
 .section-three {
-
+    padding-left: 120px;
 }
 
 /******** FOOTER STYLES ********/
@@ -129,5 +133,8 @@ footer {
 }
 
 footer span {
-
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    color: #45610E;
+    font-size: 14px;
 }
