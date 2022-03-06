@@ -41,6 +41,7 @@ p {
 
 /******** HEADER STYLES ********/
 header h1 {
+/*    outline: 3px dotted red; */
     width: 300px;
     float: left;
     margin: 0;
@@ -52,6 +53,7 @@ header h1 span {
 }
 
 header nav {
+/*    outline: 3px dotted red; */
     width: 300px;
     float: right;
     padding: 44px 0;
@@ -98,6 +100,7 @@ header nav ul li a {
 .section-one,
 .section-two,
 .section-three {
+/*    outline: 3px dotted red; */
     width: 400px;
     box-sizing: border-box;
     float: left;
