@@ -44,28 +44,39 @@ header h1 {
     outline: 3px dotted red; 
     width: 300px;
     float: left;
+    margin: 0;
+    padding: 36px 0;
 }
 
 header h1 span {
-
+    color: #45610E;
 }
 
 header nav {
     outline: 3px dotted red;
     width: 300px;
     float: right;
+    padding: 44px 0;
 }
 
 header nav ul {
-
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 header nav ul li {
     display: inline-block;
+    display: inline-block;
+    font-size: 14px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 header nav ul li a {
-
+    text-decoration: none;
+    color: #45610E;
 }
 
 /********  MAIN STYLES ********/
