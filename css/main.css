@@ -82,11 +82,13 @@ header nav ul li a {
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
 .main-image img {
-
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
 }
 
 .main-title h2 {
-
+    color: #45610E;
+    padding: 5px 0;
 }
 
 /******** BOTTOM SECTION ********/
