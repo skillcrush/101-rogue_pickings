@@ -41,7 +41,7 @@ p {
 
 /******** HEADER STYLES ********/
 header h1 {
-/*    outline: 3px dotted red; */
+    /*    outline: 3px dotted red; */
     width: 300px;
     float: left;
     margin: 0;
@@ -53,7 +53,7 @@ header h1 span {
 }
 
 header nav {
-/*    outline: 3px dotted red; */
+    /*    outline: 3px dotted red; */
     width: 300px;
     float: right;
     padding: 44px 0;
@@ -97,42 +97,47 @@ header nav ul li a {
     border-bottom: 5px solid #EEE;
 }
 
-.section-one,
-.section-two,
-.section-three {
-/*    outline: 3px dotted red; */
-    width: 400px;
+.section-one {
+    width: 350px;
     box-sizing: border-box;
     float: left;
-    padding: 0 60px;
+    padding: 0 40px;
+}
+
+.section-two {
+    width: 500px;
+    box-sizing: border-box;
+    float: left;
+    border-left: 5px solid #EEE;
+    border-right: 5px solid #EEE;
+    padding: 0 40px;
+}
+
+.section-three {
+    width: 350px;
+    box-sizing: border-box;
+    float: left;
+    padding: 0 40px;
 }
 
 .bottom-section h3 {
     padding: 10px 0;
 }
 
-.menu {
+.menu-list {
     padding-left: 0;
     list-style: none;
 }
 
-.menu li {
+.menu-list li {
     color: #45610E;
     line-height: 36px;
-}
-
-.section-two {
-    border-left: 5px solid #EEE;
-    border-right: 5px solid #EEE;
-}
-
-.section-three {
-    padding-left: 120px;
 }
 
 /******** FOOTER STYLES ********/
 footer {
     text-align: center;
+    margin-top: 8px;
 }
 
 footer span {
