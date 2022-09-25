@@ -66,9 +66,10 @@ header nav ul {
 }
 
 header nav ul li {
-    /* display: inline-block; */
     display: inline-block;
+    /* display: inline-block; make sure you remove this! */
     font-size: 14px;
+    /* move the padding rule to the bottom of the code block Starting with the header-top-section-styles branch */
     padding: 0 10px;
     text-transform: uppercase;
     font-weight: 700;
@@ -121,6 +122,7 @@ header nav ul li a {
 }
 
 .bottom-section h3 {
+    /* change to margin: 30px 0; */
     padding: 10px 0;
 }
 
