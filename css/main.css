@@ -97,7 +97,12 @@ header nav ul li a {
     border-top: 5px solid #EEE;
     border-bottom: 5px solid #EEE;
 }
+<<<<<<< Updated upstream
 /* make a code block for section-one two three  */
+=======
+/* add a combined code block, outline, box-sizing, float */ /* also padding goes into both */
+/* leave width and borders to individual code blocks */
+>>>>>>> Stashed changes
 .section-one {
     width: 350px;
     box-sizing: border-box;
