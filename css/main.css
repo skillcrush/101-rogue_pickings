@@ -67,11 +67,10 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    display: inline-block;
     font-size: 14px;
-    padding: 0 10px;
-    text-transform: uppercase;
     font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
 }
 
 header nav ul li a {
@@ -97,31 +96,29 @@ header nav ul li a {
     border-bottom: 5px solid #EEE;
 }
 
-.section-one {
-    width: 350px;
+.section-one, .section-two, .section-three {
+    /* outline: 3px dotted red;  */
     box-sizing: border-box;
     float: left;
     padding: 0 40px;
+}
+
+.section-one {
+    width: 350px;
 }
 
 .section-two {
     width: 500px;
-    box-sizing: border-box;
-    float: left;
     border-left: 5px solid #EEE;
     border-right: 5px solid #EEE;
-    padding: 0 40px;
 }
 
 .section-three {
     width: 350px;
-    box-sizing: border-box;
-    float: left;
-    padding: 0 40px;
 }
 
 .bottom-section h3 {
-    padding: 10px 0;
+    margin: 30px 0;
 }
 
 .menu-list {
