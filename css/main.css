@@ -67,12 +67,10 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    /* display: inline-block; make sure you remove this! */
     font-size: 14px;
-    /* move the padding rule to the bottom of the code block Starting with the header-top-section-styles branch */
-    padding: 0 10px;
+    font-weight: 700;
     text-transform: uppercase;
-    font-weight: 700; /* move font-weight after font-size */
+    padding: 0 10px;
 }
 
 header nav ul li a {
@@ -98,40 +96,29 @@ header nav ul li a {
     border-bottom: 5px solid #EEE;
 }
 
-/* make a code block for section-one two three  */
-
-/* add a combined code block, outline, box-sizing, float */ /* also padding goes into both */
-/* leave width and borders to individual code blocks */
-
-/* add a combined code block, outline, box-sizing, float */ /* also padding goes into both */
-/* leave width and borders to individual code blocks */
-
-.section-one {
-    width: 350px;
+.section-one, .section-two, .section-three {
+    /* outline: 3px dotted red;  */
     box-sizing: border-box;
     float: left;
     padding: 0 40px;
+}
+
+.section-one {
+    width: 350px;
 }
 
 .section-two {
     width: 500px;
-    box-sizing: border-box;
-    float: left;
     border-left: 5px solid #EEE;
     border-right: 5px solid #EEE;
-    padding: 0 40px;
 }
 
 .section-three {
     width: 350px;
-    box-sizing: border-box;
-    float: left;
-    padding: 0 40px;
 }
 
 .bottom-section h3 {
-    /* change to margin: 30px 0; */
-    padding: 10px 0;
+    margin: 30px 0;
 }
 
 .menu-list {
