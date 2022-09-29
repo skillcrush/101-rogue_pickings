@@ -80,22 +80,22 @@ header nav ul li a {
 
 }
 
-.section-one {
-    width: 350px;
+.section-one, .section-two, .section-three {
+    /*    outline: 3px dotted red; */
     box-sizing: border-box;
     float: left;
+}
+
+.section-one {
+    width: 350px;
 }
 
 .section-two {
     width: 500px;
-    box-sizing: border-box;
-    float: left;
 }
 
 .section-three {
     width: 350px;
-    box-sizing: border-box;
-    float: left;
 }
 
 .bottom-section h3 {
