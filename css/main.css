@@ -67,11 +67,10 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    display: inline-block;
     font-size: 14px;
-    padding: 0 10px;
-    text-transform: uppercase;
     font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
 }
 
 header nav ul li a {
@@ -96,16 +95,18 @@ header nav ul li a {
 
 }
 
-.section-one {
-    width: 350px;
+.section-one, .section-two, .section-three {
+    /* outline: 3px dotted red;  */
     box-sizing: border-box;
     float: left;
 }
 
+.section-one {
+    width: 350px;
+}
+
 .section-two {
     width: 500px;
-    box-sizing: border-box;
-    float: left;
 }
 
 .section-three {
