@@ -95,7 +95,9 @@ header nav ul li a {
 
 }
 
-.section-one, .section-two, .section-three {
+.section-one, 
+.section-two, 
+.section-three {
     /* outline: 3px dotted red;  */
     box-sizing: border-box;
     float: left;
@@ -111,8 +113,6 @@ header nav ul li a {
 
 .section-three {
     width: 350px;
-    box-sizing: border-box;
-    float: left;
 }
 
 .bottom-section h3 {
@@ -124,14 +124,6 @@ header nav ul li a {
 }
 
 .menu-list li {
-
-}
-
-.section-two {
-
-}
-
-.section-three {
 
 }
 
