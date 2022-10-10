@@ -96,7 +96,9 @@ header nav ul li a {
     border-bottom: 5px solid #EEE;
 }
 
-.section-one, .section-two, .section-three {
+.section-one,
+.section-two,
+.section-three {
     /* outline: 3px dotted red;  */
     box-sizing: border-box;
     float: left;
