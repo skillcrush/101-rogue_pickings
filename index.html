@@ -2,22 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" >
+    <meta charset="utf-8">
     <title>
         Rogue Pickings
     </title>
-    <link rel="stylesheet" href="css/normalize.css" >
-    <link rel="stylesheet" href="css/main.css" >
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
     <!-- Google Font styles added here -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Galada&family=Montserrat:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="content-wrapper">
             <!-- Add the <h1> -->
-
+            <h1><span>rogue</span> pickings</h1>
             <!-- Add the <nav> along with the unordered list <ul> and list items <li> that make up the nav -->
-
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#review">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
@@ -25,24 +35,46 @@
         <section class="top-section">
             <div class="content-wrapper">
                 <!-- Add a <div> tag with the class of "main-image" and nest the <img> tag inside -->
+                <div class="main-image"><img src="img/green-bean.jpg" alt="green beans" ></div>
 
                 <!-- Add a <div> with a class of "main-title" and nest the <h2> and paragraph <p> inside -->
-
+                <div class="main-title">
+                    <h2>Welcome to our little corner of the internet!</h2>
+                    <p>Welcome to Rogue Pickings, the roaming truck bringing you the freshest ingredients and ideas in
+                        food. Our
+                        team works hard so you can be sure our ingredients are always fresh and picked carefully. Our
+                        menu changes
+                        every day and is made with you in mind. We can't wait to come to you! Check out our locations to
+                        see where
+                        you can find us.</p>
+                </div>
             </div>
         </section>
         <section class="bottom-section">
             <div class="content-wrapper">
-                <div class="section-one">
+                <div class="section-one" id="menu">
                     <!-- Add the content for the first section -->
-
+                    <h3>Today's Specials</h3>
+                    <ul class="menu-list">
+                        <li>Flaming Hummus & Falafel Salad</li>
+                        <li>Sizzling Bean Burrito</li>
+                        <li>Green Gloves Tamales</li>
+                    </ul>
                 </div>
-                <div class="section-two">
+                <div class="section-two" id="review">
                     <!-- Add the content for the second section -->
-
+                    <h3>Our Latest Review</h3>
+                    <p>"I got so excited about the yumminess of the falafel salad that I am typing
+                        this
+                        review as I inhale my lunch. Yes, the food is that good..."
+                    </p>
                 </div>
-                <div class="section-three">
+                <div class="section-three" id="contact">
                     <!-- Add the content for the third section -->
-
+                    <h3>Contact</h3>
+                    <p>1001 Potrero Avenue<br>
+                        San Francisco, CA 94110<br>
+                        (415) 206-8000 </p>
                 </div>
             </div>
         </section>
@@ -51,7 +83,7 @@
     <footer>
         <div class="content-wrapper">
             <!-- Add the <h4> -->
-
+            <h4>Powered by lots of <span>fresh</span> ingredients.</h4>
         </div>
     </footer>
 </body>

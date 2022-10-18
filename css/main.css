@@ -1,119 +1,149 @@
 /******** GLOBAL STYLES ********/
 body {
-
+    font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
 }
 
 h1,
 h2,
 h3,
 h4 {
-
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 h1 {
-
+    font-size: 30px;
 }
 
 h2 {
-
+    font-size: 24px;
 }
 
 h3 {
-
+    font-size: 20px;
 }
 
 h4 {
-
+    font-size: 12px;
 }
 
 p {
-
+    line-height: 36px;
 }
 
 .content-wrapper {
-
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
 }
 
 /******** HEADER STYLES ********/
 header h1 {
-    outline: 3px dotted red; 
-
+    /*    outline: 3px dotted red; */
+    width: 300px;
+    float: left;
+    margin: 0;
+    padding: 36px 0;
 }
 
 header h1 span {
-
+    color: #45610E;
 }
 
 header nav {
-    outline: 3px dotted red;
-
+    /*    outline: 3px dotted red; */
+    width: 300px;
+    float: right;
+    padding: 44px 0;
 }
 
 header nav ul {
-
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 header nav ul li {
-
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0 10px;
 }
 
 header nav ul li a {
-
+    text-decoration: none;
+    color: #45610E;
 }
 
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
 .main-image img {
-
+    border-top: 3px solid #77A466;
+    border-bottom: 3px solid #77A466;
 }
 
 .main-title h2 {
-
+    color: #45610E;
+    padding: 5px 0;
 }
 
 /******** BOTTOM SECTION ********/
 .bottom-section .content-wrapper {
-
+    border-top: 5px solid #EEE;
+    border-bottom: 5px solid #EEE;
 }
 
 .section-one,
 .section-two,
 .section-three {
-    outline: 3px dotted red; 
-
+    /* outline: 3px dotted red;  */
+    box-sizing: border-box;
+    float: left;
+    padding: 0 40px;
 }
 
 .section-one {
-    
+    width: 350px;
 }
 
 .section-two {
-
+    width: 500px;
+    border-left: 5px solid #EEE;
+    border-right: 5px solid #EEE;
 }
 
 .section-three {
-
+    width: 350px;
 }
 
 .bottom-section h3 {
-
+    margin: 30px 0;
 }
 
 .menu-list {
-
+    padding-left: 0;
+    list-style: none;
 }
 
 .menu-list li {
-
+    color: #45610E;
+    line-height: 36px;
 }
 
 
 
 /******** FOOTER STYLES ********/
 footer {
-
+    text-align: center;
+    margin-top: 8px;
 }
 
 footer span {
-
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    color: #45610E;
+    font-size: 14px;
 }
